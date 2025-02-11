@@ -3,6 +3,17 @@ img{
 }
 a{
     text-decoration: none;
-    color: #1f1f1f;
-    font-size: 13px;
+    color: #1f1f1f;/*cor texto*/
+    font-size: 13px;/*tamanho da fonte */
+    font-family: sans-serif;
+}
+.botao-login{
+    background-color: #1a73e8;
+    color: white;
+    padding: 13px 12px;/*espaçamento interno*/
+    border-radius: 100px;
+}
+.icone-produtos{
+    width:24px ;
+    fill: #444746;/*preenchimento*/
 }
