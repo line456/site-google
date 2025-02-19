@@ -19,10 +19,7 @@ a{   /*TAG /LINK/*/
     width: 24px;/*largura*/
     fill: #444746;/*COR preenchimento*/
 }
-footer{ /*seletor da tag FONTER/RODAPÉ*/
-    background-color: #f2f2f2; /*COR DE FUNDO*/
 
-}
 .botao-login{  /*classe botao-login*/
     background-color: #1a73e8;/*cor de  fundo*/
     color: white; /*COR DO TEXTO*/
@@ -30,9 +27,28 @@ footer{ /*seletor da tag FONTER/RODAPÉ*/
     font-weight: 500px; /*PESO DA FONTE*/
     border-radius: 40px; /*RAIO DA BORDA(CURVATURA)*/
 }
+footer{ /*seletor da tag FONTER/RODAPÉ*/
+    background-color: #f2f2f2; /*COR DE FUNDO*/
+}
 .caixa-rodape{
+    display: flex;
+    justify-content: space-between;
     padding :15px 30px;
+
 }
 .caixa-rodape--borda{
     border-bottom: 1px solid #dadce0
+}
+.caixa-links{
+    display: flex;
+    gap: 30px; /*espaçamento entre os itens da div caixa-links*/
+}
+
+header{ /*cabeçalho*/
+    display: flex;
+    justify-content: flex-end; /*horinzontal, a direita no espaço disponivel*/ 
+    /*itens alinhados ao centro do espaço disponivel*/
+    align-items: center; /*itens alinhados ao centro do espaço disponivel*/
+    gap: 15px;/*espaçamento entre os elementos dentro do header */
+    padding: 10px 14px;/*espaçamento ao redor do header*/
 }
