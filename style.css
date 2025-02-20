@@ -15,18 +15,40 @@ a{   /*TAG /LINK/*/
     font-size: 13px;/*tamanho fonte*/
     font-family: sans-serif;/*tipo/familia DA FONTE*/
 }
-.icone-produtos{ /*CLASSE ICONE-PRODUTOS*/
-    width: 24px;/*largura*/
-    fill: #444746;/*COR preenchimento*/
+
+/*main principal */
+.caixa-pesquisa{
+    display: flex;
+    width: 583px; /*largura*/
+    padding: 10px 14px;/*espaçamento interno */
+    align-items: center;/*alinhando os itens ao centro */
+    gap: 13px;/*espaçamento entre os elementos filho*/
+    border: 1px solid #dfe1e5;/*borda */
+    border-radius: 100px;/*raio de borda */
+}
+.caixa-icones{
+    display: flex;
+    align-items: center; /*alinha na vertical*/
+    gap: 16px; /*espaçamento entre os itens */
+}
+.icone-lupa{
+    width: 20px; /*largura*/
+    fill: #9aa0a6; /*preenchimento */
+}
+.input-pesquisa{
+    width: 100%; /*ocupar 100% da largura disponivel*/
+    border: none; /*borda nenhuma */
+    outline: none; /* sombreamento quando selecionado nenhum*/
+}
+.icone-teclado{
+    width: 20px;/*largura*/
+    height: 14px;/*alturq*/
+}
+.icone-preto{
+    width: 24px; /*largura */
+
 }
 
-.botao-login{  /*classe botao-login*/
-    background-color: #1a73e8;/*cor de  fundo*/
-    color: white; /*COR DO TEXTO*/
-    padding: 13px 12px;/*espaçamento interno*/
-    font-weight: 500px; /*PESO DA FONTE*/
-    border-radius: 40px; /*RAIO DA BORDA(CURVATURA)*/
-}
 footer{ /*seletor da tag FONTER/RODAPÉ*/
     background-color: #f2f2f2; /*COR DE FUNDO*/
 }
@@ -44,6 +66,7 @@ footer{ /*seletor da tag FONTER/RODAPÉ*/
     gap: 30px; /*espaçamento entre os itens da div caixa-links*/
 }
 
+/*cabeçalho*/
 header{ /*cabeçalho*/
     display: flex;
     justify-content: flex-end; /*horinzontal, a direita no espaço disponivel*/ 
@@ -51,4 +74,16 @@ header{ /*cabeçalho*/
     align-items: center; /*itens alinhados ao centro do espaço disponivel*/
     gap: 15px;/*espaçamento entre os elementos dentro do header */
     padding: 10px 14px;/*espaçamento ao redor do header*/
+}
+
+.botao-login{  /*classe botao-login*/
+    background-color: #1a73e8;/*cor de  fundo*/
+    color: white; /*COR DO TEXTO*/
+    padding: 13px 12px;/*espaçamento interno*/
+    font-weight: 500px; /*PESO DA FONTE*/
+    border-radius: 40px; /*RAIO DA BORDA(CURVATURA)*/
+}
+.icone-produtos{ /*CLASSE ICONE-PRODUTOS*/
+    width: 24px;/*largura*/
+    fill: #444746;/*COR preenchimento*/
 }
